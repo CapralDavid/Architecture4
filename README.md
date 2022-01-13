@@ -3,4 +3,4 @@ Lab 4
 
 # Authors:
 - Kravchuk Dmytriy
-- Pamfilov Dmytro
+- Panfilov Dmytro

@@ -33,7 +33,7 @@ func ConcatStringNtimes(k int) {
 
 func BenchmarkParser(b *testing.B) {
 
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 12; i++ {
 		UpdateFileToDefault()
 	    ConcatStringNtimes(i)
 		cmd, _ := ioutil.ReadFile("./testFile.txt")
@@ -44,7 +44,7 @@ func BenchmarkParser(b *testing.B) {
 		    }
 		})
 
-        
+        UpdateFileToDefault()
 	}
     
 
